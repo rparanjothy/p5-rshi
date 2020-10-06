@@ -6,6 +6,6 @@ body {
 
 canvas {
   display: block;
-  margin: 50px 50px;
-  /* opacity: 0.8; */
+  /* margin: 50px 50px; */
+  opacity: 0.8;
 }
