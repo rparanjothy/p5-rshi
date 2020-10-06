@@ -1,12 +1,12 @@
 function preload() {
-  r = loadImage("a3.jpg");
+  r = loadImage("a4.jpg");
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  r.resize(800, 0);
+  r.resize(0, 800);
   tiles = 500;
-  background(255);
+  background(1);
 
   tile = width / tiles;
   dia = tile * 0.9 * 0.5;
